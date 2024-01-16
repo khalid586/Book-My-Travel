@@ -61,14 +61,14 @@ nav{
     justify-content: center;
 
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .banner-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 70%;
+    width: 90%;
     height: 600px;
     /* border: 1px solid tomato; */
     background-image:url(Images/Rectangle\ 5.png);
@@ -94,7 +94,7 @@ nav{
     margin-top: 40px;
     gap: 24px;
     background-color: rgba(255,255,255,0.3);
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 .first{
@@ -133,6 +133,8 @@ nav{
 .fourth{
     display: flex;
     gap:24px;
+    justify-content: center;
+    font-weight: 800;
     align-items: center;
     padding:10px;
     width: 174px;
@@ -156,8 +158,8 @@ nav{
     /* align-items: center; */
 }
 .btn{
-     width : 25%;background-color: 
-     var(--primary-color);
+     width : 25%;
+     background-color: var(--primary-color);
      border:none;
      border-radius:8px;
      padding:20px;
