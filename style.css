@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding: 0px;
+    --primary-color: #FF5400;
+}
+body{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+}
+.right > .list{
+    text-align: right;
+}
+.hamburger-menu{
+
+}
+.list{
+    list-style: none;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 600px){
+    .list{
+        display: none;
+    }
+}
