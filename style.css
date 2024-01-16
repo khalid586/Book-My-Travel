@@ -2,6 +2,7 @@
     margin:0px;
     padding: 0px;
     --primary-color: #FF5400;
+    font-family: mulish;
 }
 body{
     width: 100%;
@@ -65,7 +66,7 @@ nav{
     align-items: center;
     flex-direction: column;
     width: 70%;
-    height: 400px;
+    height: 600px;
     /* border: 1px solid tomato; */
     background-image:url(Images/Rectangle\ 5.png);
     background-size: 100% 100%;
@@ -87,12 +88,17 @@ nav{
     display: inline-flex;
     padding: 16px;
     align-items: flex-start;
+    margin-top: 40px;
     gap: 24px;
     background-color: rgba(255,255,255,0.3);
     border: 1px solid red;
 
 }
 .first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
     width: 174px;
     height: 52px;
     flex-shrink: 0;
@@ -100,19 +106,38 @@ nav{
     background: #FFF;
 }
 .second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
     width: 174px;
     height: 52px;
     flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
 }
 .third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
     width: 174px;
     height: 52px;
     flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
 }
 .fourth{
+    display: flex;
+    gap:24px;
+    align-items: center;
+    padding:10px;
     width: 174px;
     height: 52px;
     flex-shrink: 0;
+    border-radius: 8px;
+    color: white;
+    background: var(--primary-color);
 }
 
 
@@ -140,5 +165,17 @@ nav{
         margin-bottom:20px;
         font-size: 12px;
         margin-top:10px;
+    }
+    .banner-last{
+        flex-direction: column;
+        margin-top:10px;
+    }
+    .first,.second,.third,.fourth{
+        height: 20%;
+    }
+    .banner-container{
+        height: 100%;
+        margin:20px;
+        border-radius: 10px;
     }
 }
