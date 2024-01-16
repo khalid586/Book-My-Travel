@@ -279,17 +279,17 @@ flex-shrink: 0;
     background: rgba(233, 68, 68, 0.05);
 }
 .last{
+    /* border: 1px solid blue; */
     display: flex;
-    border: 1px solid blue;
     justify-content: center;
     align-items: center;
 }
 .newsletter{
     border-radius: 16px;
+    padding: 10px;
     border: 1px solid var(--primary-color);
     width: 30%;
-    background-color:white;
-    height: 50%;
+    background-color:white; 
 }
 .input-section{
     width:80%;
@@ -306,12 +306,15 @@ flex-shrink: 0;
     background-color: rgba(19, 19, 24, 0.05);
 }
 .btn1{
-    border-radius: 8px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
     padding-top: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    border-radius: 8px;
     background-color: var(--primary-color);
-    border: none;
-    width: 50%;
-    color:  white;
 }
 .newsletter-image{
     background: url(Images/Rectangle\ 8\ \(1\).png);
@@ -322,7 +325,7 @@ flex-shrink: 0;
     display: flex;
     align-items: flex-end; /* Align to the right */
     justify-content: flex-end; /* Align to the bottom */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .offer{
     background-color: var(--primary-color);
