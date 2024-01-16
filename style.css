@@ -3,6 +3,7 @@
     padding: 0px;
     --primary-color: #FF5400;
     font-family: mulish;
+    padding-bottom:20px ;
 }
 body{
     width: 100%;
@@ -36,7 +37,9 @@ nav{
 .hamburgerMenu{
     display: none;
 }
-
+.pop-right{
+    margin-top: 30px;
+}
 
 .list{
     list-style: none;
@@ -139,7 +142,27 @@ nav{
     color: white;
     background: var(--primary-color);
 }
-
+.popular{
+    display: flex;
+    justify-content: center;
+}
+.pop-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    gap:75px;
+    
+    /* align-items: center; */
+}
+.btn{
+     width : 25%;background-color: 
+     var(--primary-color);
+     border:none;
+     border-radius:8px;
+     padding:20px;
+     color:white;
+}
 
 @media screen and (max-width: 600px){
     .list{
@@ -173,9 +196,26 @@ nav{
     .first,.second,.third,.fourth{
         height: 20%;
     }
+    .fourth{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+    }
     .banner-container{
         height: 100%;
         margin:20px;
         border-radius: 10px;
+    }
+    .popular{
+        flex-direction: column;
+
+    }
+    .pop-right > img{
+        width:90%;
+        height: 150px;
+        margin-left: 20px;
+    }
+    .btn{
+
     }
 }
