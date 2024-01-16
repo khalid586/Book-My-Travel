@@ -6,9 +6,10 @@
     padding-bottom:20px ;
     margin: 0px 15px 0px 15px;
 }
-body{
+/* body{
     width: 100%;
-}
+} */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -340,6 +341,27 @@ flex-shrink: 0;
     font-size: 24px;
 }
 
+footer{
+    /* border: 1px solid blue; */
+    background-color: rgba(19, 19, 24, 0.05);;
+    margin:0px -30px -40px -40px;
+    padding: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding: 0px 335px;
+}
+footer > p{
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding: 30px 0px;
+}
+/* -------------------------Responsive design starts----------------------------- */
+
 @media screen and (max-width: 600px){
     .list{
         display: none;
@@ -433,5 +455,8 @@ flex-shrink: 0;
     }
     .offer{
         font-size:15px;
+    }
+    .footer{
+        padding: 10px;
     }
 }
